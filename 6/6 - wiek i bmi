@@ -6,7 +6,7 @@ if (age >= 18 and age < 100):
 elif (age >= 100):
     print('w takim razie 200!')
 else: 
-    print('podrosnij jeszcze: {} i bedziesz walil alko na legalu' .format(zostalo))
+    print('podrosnij jeszcze: {} i mozesz jesc owocki na legalu' .format(zostalo))
 
 BMI= float(input(' podaj swoje BMI w przedziale od 0 do 100'))
 
@@ -23,6 +23,6 @@ if (BMI >= 30 and BMI <35):
 if (BMI >= 35 and BMI <40):
     print ('2 st otylosci')
 if (BMI >= 40):
-    print ('3 st otylosci - fchuj za gruby')
+    print ('3 st otylosci')
 
 
