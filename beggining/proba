@@ -1,0 +1,16 @@
+a=int(input(„please give number one”))
+b=int(input(„please give number two”))
+c=int(input(„please give number three”))
+
+if a>b and a>c:
+if a a and b> c:
+if ba and c>b:
+if c<a+b:
+print("the triangle is possible to create")
+if c**2==b**2+a**2:
+print ("pitgorejski")
+if c/5==b/3==a/4 or c/5==b/4==a/3:
+print("egipski")
+
+else:
+print("the triangle in not possible to create")

@@ -1,0 +1,12 @@
+def median(lst):
+  lst2=lst.sort()
+  if len(lst2) %2 == 0:
+    x = len(lst2)/2
+    y = len (lst2)/2 + 1
+    z= (lst(x) + lst (y))/2
+  	
+  else:
+    j = len(lst2)/2
+    i = round(j)
+    z = lst2(i)
+  return z
